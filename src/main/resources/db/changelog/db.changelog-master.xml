@@ -6,5 +6,6 @@
 
     <include file="db/changelog/v.1.0.0/create.sql"/>
     <include file="db/changelog/v.1.0.0/alter.sql"/>
+    <!--  The following line populates the database with mock data. If not needed, comment out the next line and rerun the application  -->
     <include file="db/changelog/v.1.0.0/insert.sql"/>
 </databaseChangeLog>
